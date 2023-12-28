@@ -60,7 +60,35 @@ namespace SampleFileExplorer
 
                     for (int i = 0; i < files.Length; i++)
                     {
-                        lstvDisplay.Items.Add(files[i].Name, 6);
+                        int iconID = 7;
+                        switch (files[i].Extension.ToLower())
+                        {
+                            case ".doc":
+                            case ".docx":
+                            case ".docm":
+                                iconID = 1;
+                                break;
+                            case ".gif":
+                            case ".jpg":
+                            case ".png":
+                                iconID = 2;
+                                break;
+                            case ".pdf":
+                                iconID = 3;
+                                break;
+                            case ".txt":
+                                iconID = 4;
+                                break;
+                            case ".csv":
+                            case ".xls":
+                            case ".xlsx":
+                                iconID = 5;
+                                break;
+                            case ".zip":
+                                iconID = 6;
+                                break;
+                        }
+                        lstvDisplay.Items.Add(files[i].Name, iconID);
                     }
                 }
             }

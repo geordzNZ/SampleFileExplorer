@@ -125,13 +125,12 @@
             this.lstIcons.TransparentColor = System.Drawing.Color.Transparent;
             this.lstIcons.Images.SetKeyName(0, "folder.png");
             this.lstIcons.Images.SetKeyName(1, "doc.png");
-            this.lstIcons.Images.SetKeyName(2, "jpg.png");
+            this.lstIcons.Images.SetKeyName(2, "img.png");
             this.lstIcons.Images.SetKeyName(3, "pdf.png");
-            this.lstIcons.Images.SetKeyName(4, "png.png");
-            this.lstIcons.Images.SetKeyName(5, "txt.png");
-            this.lstIcons.Images.SetKeyName(6, "unknown.png");
-            this.lstIcons.Images.SetKeyName(7, "xls.png");
-            this.lstIcons.Images.SetKeyName(8, "zip.png");
+            this.lstIcons.Images.SetKeyName(4, "txt.png");
+            this.lstIcons.Images.SetKeyName(5, "xls.png");
+            this.lstIcons.Images.SetKeyName(6, "zip.png");
+            this.lstIcons.Images.SetKeyName(7, "unknown.png");
             // 
             // lblCreatedDate
             // 
