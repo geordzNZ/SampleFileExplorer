@@ -117,6 +117,7 @@
             this.lstvDisplay.TabIndex = 8;
             this.lstvDisplay.UseCompatibleStateImageBehavior = false;
             this.lstvDisplay.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.lstvDisplay_ItemSelectionChanged);
+            this.lstvDisplay.SelectedIndexChanged += new System.EventHandler(this.lstvDisplay_SelectedIndexChanged);
             this.lstvDisplay.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lstvDisplay_MouseDoubleClick);
             // 
             // lstIcons

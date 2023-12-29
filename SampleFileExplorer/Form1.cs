@@ -161,6 +161,11 @@ namespace SampleFileExplorer
 
         private void lstvDisplay_MouseDoubleClick(object sender, MouseEventArgs e)
         {
+            MessageBox.Show("Add code to open file","Caption",MessageBoxButtons.OK);
+        }
+
+        private void lstvDisplay_SelectedIndexChanged(object sender, EventArgs e)
+        {
             loadButtonAction();
         }
     }
