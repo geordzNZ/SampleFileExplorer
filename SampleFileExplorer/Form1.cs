@@ -40,7 +40,7 @@ namespace SampleFileExplorer
                     FileInfo fileDetails = new FileInfo(selectedFile);
 
                     lblFileName.Text = fileDetails.Name;
-                    lblFileType.Text = fileDetails.Extension;
+                    lblFileType.Text = fileDetails.Extension.Substring(1);
                     lblCreatedDate.Text = fileDetails.CreationTime.ToString();
                     lblModifiedDate.Text = fileDetails.LastWriteTime.ToString();
                     fileAttrib = File.GetAttributes(selectedFile);
