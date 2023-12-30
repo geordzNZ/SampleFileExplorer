@@ -66,11 +66,14 @@ namespace SampleFileExplorer
                             case ".doc":
                             case ".docx":
                             case ".docm":
+                            case ".dotx":
                                 iconID = 1;
                                 break;
                             case ".gif":
                             case ".jpg":
+                            case ".jpeg":
                             case ".png":
+                            case ".svg":
                                 iconID = 2;
                                 break;
                             case ".pdf":
@@ -82,6 +85,8 @@ namespace SampleFileExplorer
                             case ".csv":
                             case ".xls":
                             case ".xlsx":
+                            case ".xlsm":
+                            case ".xlst":
                                 iconID = 5;
                                 break;
                             case ".zip":
