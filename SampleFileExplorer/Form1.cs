@@ -86,7 +86,7 @@ namespace SampleFileExplorer
                             case ".xls":
                             case ".xlsx":
                             case ".xlsm":
-                            case ".xlst":
+                            case ".xltx":
                                 iconID = 5;
                                 break;
                             case ".zip":
