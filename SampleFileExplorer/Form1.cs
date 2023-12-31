@@ -69,10 +69,12 @@ namespace SampleFileExplorer
                             case ".dotx":
                                 iconID = 1;
                                 break;
+                            case ".bmp":
                             case ".gif":
                             case ".jpg":
                             case ".jpeg":
                             case ".png":
+                            case ".tif":
                             case ".svg":
                                 iconID = 2;
                                 break;
