@@ -60,7 +60,7 @@ namespace SampleFileExplorer
 
                     for (int i = 0; i < files.Length; i++)
                     {
-                        int iconID = 7;
+                        int iconID = 8;
                         switch (files[i].Extension.ToLower())
                         {
                             case ".doc":
@@ -78,21 +78,24 @@ namespace SampleFileExplorer
                             case ".svg":
                                 iconID = 2;
                                 break;
-                            case ".pdf":
+                            case ".mp3":
                                 iconID = 3;
                                 break;
-                            case ".txt":
+                            case ".pdf":
                                 iconID = 4;
+                                break;
+                            case ".txt":
+                                iconID = 5;
                                 break;
                             case ".csv":
                             case ".xls":
                             case ".xlsx":
                             case ".xlsm":
                             case ".xltx":
-                                iconID = 5;
+                                iconID = 6;
                                 break;
                             case ".zip":
-                                iconID = 6;
+                                iconID = 7;
                                 break;
                         }
                         lstvDisplay.Items.Add(files[i].Name, iconID);

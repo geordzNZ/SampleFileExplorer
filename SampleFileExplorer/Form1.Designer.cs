@@ -127,11 +127,12 @@
             this.lstIcons.Images.SetKeyName(0, "folder.png");
             this.lstIcons.Images.SetKeyName(1, "doc.png");
             this.lstIcons.Images.SetKeyName(2, "img.png");
-            this.lstIcons.Images.SetKeyName(3, "pdf.png");
-            this.lstIcons.Images.SetKeyName(4, "txt.png");
-            this.lstIcons.Images.SetKeyName(5, "xls.png");
-            this.lstIcons.Images.SetKeyName(6, "zip.png");
-            this.lstIcons.Images.SetKeyName(7, "unknown.png");
+            this.lstIcons.Images.SetKeyName(3, "mp3.png");
+            this.lstIcons.Images.SetKeyName(4, "pdf.png");
+            this.lstIcons.Images.SetKeyName(5, "txt.png");
+            this.lstIcons.Images.SetKeyName(6, "xls.png");
+            this.lstIcons.Images.SetKeyName(7, "zip.png");
+            this.lstIcons.Images.SetKeyName(8, "unknown.png");
             // 
             // lblCreatedDate
             // 
