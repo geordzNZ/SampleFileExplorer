@@ -79,6 +79,8 @@ namespace SampleFileExplorer
                                 iconID = 2;
                                 break;
                             case ".mp3":
+                            case ".mp4":
+                            case ".wav":
                                 iconID = 3;
                                 break;
                             case ".pdf":
